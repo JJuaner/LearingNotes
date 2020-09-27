@@ -1,2 +1,10 @@
+>tensor维度理解
+>>a.shape=tensor.Size([4,3,28,28])
+>>>[dim0,dim1,dim2,dim3]<br>
+>>>4张照片,3通道,28行,28列<br>
+>>>a[0].shape=tensor.Size([3,28,28])<br>
+>>>a[0,0].shape=tensor.Size([28,28])
+
+
 >索引
 >>`...`是`:,:`的匹配缩写，具体有多少个，由系统自适应<br>
