@@ -5,6 +5,9 @@
 >>>a[0].shape=tensor.Size([3,28,28])<br>
 >>>a[0,0].shape=tensor.Size([28,28])
 
+>dimension与shape
+>>[1,3]，二维，形状1,3
+
 
 >索引
 >>`...`是`:,:`的匹配缩写，具体有多少个，由系统自适应<br>
