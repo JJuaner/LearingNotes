@@ -23,3 +23,10 @@ Pytorch核心是tensor<br>
 
 
 broadcast=unsqueeze+expand
+
+tensor零填充
+>>1.0tensor cat  
+>>2.pytorch中最常用的零填充函数是nn.ZeroPad2d，也就是对Tensor使用0进行边界填充，我们可以指定tensor的四个方向上的填充数，比如左边添加1dim、右边添加2dim、上边添加3dim、下边添加4dim，即指定paddin参数为（1，2，3，4），如下：  
+>>>pad = nn.ZeroPad2d(padding=(1, 2, 3, 4))  
+>>>y = pad(x)  
+>>>得到的y是x在四个方向上按照（1，2，3，4）进行的补零操作
