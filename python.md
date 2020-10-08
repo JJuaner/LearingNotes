@@ -1,0 +1,4 @@
+在Python中有两种函数，一种是def定义的函数，另一种是lambda函数
+>>lambda函数也叫匿名函数,即函数没有具体的名称->函数极简模式
+>>>why lambda：不用费神地去命名一个函数的名字，可以快速的实现某项功能，减少了代码的冗余  
+>>>语法：lambda argument_list:expersion 只能由一条表达式组成
