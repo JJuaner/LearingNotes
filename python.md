@@ -13,3 +13,12 @@ list常用操作
 >>1.if X is None  
 >>2.if not X:当X为None,  False, 空字符串"", 0, 空列表[], 空字典{}, 空元组()这些时，not X为真，即无法分辨出他们之间的不同。  
 >>3.if not X is None
+
+
+***
+
+在python中，个人理解为栈可以用列表来代替  
+stack = []  
+stack.append(<item>)  
+stack.pop(-1)#FILO  
+stack.pop(0)#FIFO
