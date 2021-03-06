@@ -31,6 +31,7 @@ tensor零填充
 >>>y = pad(x)  
 >>>得到的y是x在四个方向上按照（1，2，3，4）进行的补零操作
 
-[a,b,c,d]
-dim0 dim1 dim2 dim3
-dimx 意义 个数a
+[[][],[][]] 实际数据  
+[a,b,c,d]   shape  
+dim0 dim1 dim2 dim3  
+dimx 意义 个数a  
