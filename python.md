@@ -25,3 +25,8 @@ stack = []
 stack.append(<item>)  
 stack.pop(-1)#FILO  
 stack.pop(0)#FIFO
+
+***
+return与yield  
+yield与生成器  
+带yield的函数是一个生成器，而不是一个函数。生成器有一个next函数。
