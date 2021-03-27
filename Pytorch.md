@@ -48,3 +48,9 @@ python没有数组但可以用list做数组，list中的数据类不必相同的
 list有逗号，array无逗号分隔有shape   
 array的* 就是对应元素相乘，如果行或列数不匹配会自动补全，这就是numpy的”广播” 
 array想要实现矩阵相乘，使用np.dot(array1, array2)  
+
+
+***
+可以通过Model.parameters()获取网络参数  
+具体实现：parameters->named_parameters->类成员变量->有序字典->register_parameter  
+参考：https://blog.csdn.net/idwtwt/article/details/82195000
