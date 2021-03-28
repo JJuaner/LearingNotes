@@ -1,0 +1,6 @@
+shell编程  
+shell脚本语言shell脚本程序（和c/java/python一样是种编程语言，.sh文件和.java .py文件一样是个程序） 
+shell运行环境：文本编辑器+shell解释器（linux自带shell解释器）
+
+for, do, done是sh脚本语言的关键字
+mkdir，touch系统自带命令（一段程序）
