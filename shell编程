@@ -4,3 +4,7 @@ shell运行环境：文本编辑器+shell解释器（linux自带shell解释器�
 
 for, do, done是sh脚本语言的关键字
 mkdir，touch系统自带命令（一段程序）
+
+
+新建一个文件，扩展名为sh（sh代表shell），扩展名并不影响脚本执行，只是用于见名知意就好，
+shell脚本只在于本质内容，不在乎扩展名（如果你用php写shell 脚本，扩展名就用php好了）
