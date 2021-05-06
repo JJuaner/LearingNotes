@@ -57,6 +57,10 @@ array想要实现矩阵相乘，使用np.dot(array1, array2)
 
 ***
 踩坑交叉熵
-F.cross_entropy():https://blog.csdn.net/wuliBob/article/details/104119616
-nn.CrossEntropyLoss():https://blog.csdn.net/weixin_41122036/article/details/103270152?utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-1.control&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-1.control pytorch中计算的是batch-loss是平均值.
+F.cross_entropy():
+1.F.Cross_entropy(input, target)函数中包含了softmaxsoftmax和log的操作，即网络计算送入的input参数不需要进行这两个操作。并且这两个操作不影响tensor维度。
+2.在one-hot编码的前提下，在pytorch代码中target不需要以one-hot形式表示，而是直接用scalar，scalar的值则是真实类别的index。  
+https://blog.csdn.net/wuliBob/article/details/104119616
+nn.CrossEntropyLoss():pytorch中计算的是batch-loss是平均值  
+https://blog.csdn.net/weixin_41122036/article/details/103270152?utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-1.control&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-1.control
 
