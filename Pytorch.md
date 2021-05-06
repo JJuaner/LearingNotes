@@ -54,3 +54,9 @@ array想要实现矩阵相乘，使用np.dot(array1, array2)
 可以通过Model.parameters()获取网络参数  
 具体实现：parameters->named_parameters->类成员变量->有序字典->register_parameter  
 参考：https://blog.csdn.net/idwtwt/article/details/82195000
+
+***
+踩坑交叉熵
+F.cross_entropy():https://blog.csdn.net/wuliBob/article/details/104119616
+nn.CrossEntropyLoss():https://blog.csdn.net/weixin_41122036/article/details/103270152?utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-1.control&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-1.control pytorch中计算的是batch-loss是平均值.
+
