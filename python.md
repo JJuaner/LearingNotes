@@ -43,4 +43,4 @@ pythonGC机制
 ### DataFrame
 pandas的DataFrame对象，本质上是二维矩阵，跟常规二维矩阵的差别在于前者额外指定了每一行和每一列的名称。
 这样内部数据抽取既可以用“行列名称（对应.loc[]方法）”，也可以用“矩阵下标（对应.iloc[]方法）”两种方式进行。
-DataFrame对象的.loc[,]和.iloc[,]方法用于抽取数据，.loc[,]用行列的标签名作为参数，.iloc[,]用二维矩阵元素的网格下标作为参数。
+DataFrame对象的.loc[,]和.iloc[,]方法用于抽取数据，.loc[,]用行列的标签名作为参数，.iloc[,]用二维矩阵元素的网格下标作为参数。https://www.jianshu.com/p/f430d4f1b33f
